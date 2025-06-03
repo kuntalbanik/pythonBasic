@@ -1,0 +1,108 @@
+{
+  //
+  //
+  //
+  
+  "black-formatter.importStrategy": "fromEnvironment",
+  "black-formatter.interpreter": [
+    "${workspaceFolder}\\env\\Scripts\\python.exe"
+  ],
+  "black-formatter.path": [
+    "${workspaceFolder}\\env\\Scripts\\black.exe"
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+      80
+    ],
+  }
+}
+//
+//
+//
+
+"workbench.colorCustomizations": {
+    // "tab.activeBackground": "#29459e", // Custom
+    // "tab.inactiveBackground": "#292929", // Custom
+    // "tab.activeForeground": "#000000",
+    // "list.inactiveSelectionBackground": "#C5DEF0",
+    // "sideBar.background": "#F8F6F6",
+    // "sideBar.foreground": "#000000",
+    // "editor.background": "#141212", // Custom
+    // "editor.foreground": "#000000",
+    // "sideBarSectionHeader.background": "#CAC9C9",
+    // "sideBarSectionHeader.foreground": "#000000",
+    // "activityBar.border": "#FFFFFF",
+    // "statusBar.background": "#102F97",
+    // "scrollbarSlider.activeBackground": "#77D4CB",
+    // "scrollbarSlider.hoverBackground": "#8CE6DA",
+    // "badge.background": "#81CA91"
+  },
+// 
+// 
+// 
+  // "editor.tokenColorCustomizations": {
+  //   "textMateRules": [
+  //     {
+  //       "scope": [
+  //         "string.quoted",
+  //         "comment"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#678088", // Set keyword color 
+  //         "fontStyle": "italic",
+  //       },
+  //       // "keyword",
+  //       // "string.quoted.double",
+  //       // "string.quoted.other",
+  //       // "string.quoted.single",
+  //       // "string.quoted.triple",
+  //       // "string.other"
+  //     },
+  //     {
+  //       "scope": [
+  //         // "variable",
+  //         "variable.parameter"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#d1d1d1", // Set keyword color 
+  //         "fontStyle": "italic",
+  //       },
+  //     },
+  //     {
+  //       "scope": [
+  //         "keyword",
+  //       ],
+  //       "settings": {
+  //         // "fontStyle": "bold",
+  //       },
+  //     },
+  //     {
+  //       "scope": [
+  //         "entity.name.function",
+  //         "support.function",
+  //         "support.function.construct", 
+  //         "entity.name.class",
+  //         "entity.name.type.class"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#d1a061",
+  //         // "fontStyle": "bold",
+  //       },
+  //     },
+  //     {
+  //       "scope": [
+  //         "entity.name.class",
+  //         "entity.name.type.class"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#4EC9B0",
+  //         "fontStyle": "italic",
+  //       },
+  //     }
+  //   ]
+  // },
+// 
+// 
+// 
