@@ -38,3 +38,41 @@ marks = {"math": 80, "english": 75, "science": 90}
 
 for key, val in marks.items():
     print(key, " - ", val)
+
+
+# 🔹 Challenge 5: (Medium)
+# Count how many keys are in this dictionary:
+# data = {"a": 1, "b": 2, "c": 3, "d": 4}
+
+data = {"a": 1, "b": 2, "c": 3, "d": 4}
+data_count = 0
+for d in data.keys():
+    data_count += 1
+print(data_count)
+# Second option
+
+print(len(data))
+
+
+# 🔹 Challenge 6: (Medium → Advanced)
+# You are given a dictionary of prices. Print only the items whose price is more than 100.
+products = {"pen": 20, "notebook": 55, "bag": 120, "shoes": 250, "pencil": 10}
+
+products_above_hundred = [pr for pr, val in products.items() if val >= 100]
+print(products_above_hundred)
+
+
+# 🔹 Challenge 7: (Advanced)
+# Given a list of names, count how many times each name appears using a dictionary.
+# 🔍 Hint: Use a loop + if name not in dict
+
+names = ["rahim", "karim", "rahim", "naim", "karim", "rahim"]
+
+name_counts = {}
+for name in names:
+    if name not in name_counts:
+        name_counts[name] = 1
+    else:
+        name_counts[name] += 1
+
+print(name_counts)
